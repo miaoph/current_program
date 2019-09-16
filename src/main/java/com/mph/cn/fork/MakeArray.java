@@ -1,4 +1,4 @@
-package com.mph.cn.concurrentprogram.fork;
+package com.mph.cn.fork;
 
 import java.util.Random;
 

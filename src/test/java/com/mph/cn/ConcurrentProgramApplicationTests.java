@@ -1,4 +1,4 @@
-package com.mph.cn.concurrentprogram;
+package com.mph.cn;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
