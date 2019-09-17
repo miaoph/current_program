@@ -17,7 +17,7 @@ public class TestMyLock {
                     lock.lock();
                     try {
                         SleepTools.currentSleep(1);
-                        System.out.println(Thread.currentThread().getName());
+                        System.out.println(Thread.currentThread().getName()+"---->>>>");
                         SleepTools.currentSleep(1);
                     } finally {
                         lock.unlock();
