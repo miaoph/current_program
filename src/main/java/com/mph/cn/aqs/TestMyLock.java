@@ -5,6 +5,10 @@ import com.mph.cn.utils.SleepTools;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * 解释aqs链接地址
+ * https://blog.csdn.net/fxkcsdn/article/details/82217760
+ */
 public class TestMyLock {
     public void test() {
         final Lock lock =
