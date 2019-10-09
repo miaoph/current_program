@@ -1,0 +1,9 @@
+logging:
+  pattern.console: \\%d{yyyy-MM-dd HH:mm:ss} [%thread][%X{traceId}] %-5level %logger{36} - %msg%n
+  level:
+    root: info
+    com.mph: debug
+
+
+#  %5p traceId:%X{traceId} %c:%L - %m %throwable{separator( --> )}%n
+#  %d{HH:mm:ss} [%thread][%X{traceId}] %-5level %logger{36} - %msg%n
