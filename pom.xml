@@ -16,6 +16,7 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <hutool.versin>5.8.16</hutool.versin>
     </properties>
 
     <dependencies>
@@ -63,9 +64,13 @@
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
-            <version>5.8.16</version>
+            <version>${hutool.versin}</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.0.0</version>
+        </dependency>
     </dependencies>
 
     <build>
